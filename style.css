@@ -1,0 +1,92 @@
+/**
+ * Homework 1 Assignment
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+    }
+ 
+  
+  body {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background: #777777;
+    background-size: 960px;
+    }
+  
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777777;
+    background: #ebebeb;
+    }
+  
+  nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #777777;
+    background: #ebebeb;
+    }
+  
+  #full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    text-align: center;
+    border: #777777;
+    }
+
+.section {
+    position: relative;
+    background: #ebebeb;
+    size: 495px;
+    padding: 0px 0px 200px 20px;
+    border-right: 5px solid #777777;
+    }
+    
+.article {
+    position: absolute;
+    left: 5px;
+    background: #777777;
+    color: #ebebeb;
+    padding: 15px;
+    width: 50%;
+    border-right: 5px solid #ebebeb;
+    }
+
+#sectionH {
+    float: left;
+    width: 100%;
+    color: #777777;
+    background: #ebebeb;
+    font-weight: bolder;
+    }
+      
+#sectionP {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    color: #777777;
+    background: #ebebeb;
+    }
+
+.aside {
+    float: right;
+    width: 50%;
+    height: 100%;
+    right: 0px;
+    background: #ebebeb;
+    border-left: 10px solid #777777;
+    padding: 0px 0px 200px 20px;
+    }
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    clear: both;
+    color: #777777;
+    background: #ebebeb;
+    }
